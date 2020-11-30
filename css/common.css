@@ -1,0 +1,22 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+ul, li {list-style: none; margin: 0; padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  /* 기본 사이즈로 16px을 많이 씀 */
+  font-size: 16px;
+  color: rgb(245, 245, 245);
+  background: rgb(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {text-decoration: none; color: rgb(245, 245, 245); cursor: pointer;}
+
+
